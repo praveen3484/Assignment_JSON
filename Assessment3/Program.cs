@@ -35,7 +35,14 @@ namespace Assessment3
             { Console.WriteLine(e); }
 
         }
-
+        /// <summary>
+        /// Author: Praveen Bhatt
+        /// </summary>
+        /// <param name="flag"></param>
+        /// <param name="path"></param>
+        /// <param name="myDetails"></param>
+        /// <param name="i"></param>
+        /// <returns></returns>
         private static bool Switch(bool flag, string path, string myDetails, int i)
         {
             switch (i)
